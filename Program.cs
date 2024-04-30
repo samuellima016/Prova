@@ -36,7 +36,7 @@ app.MapGet("api/folha/buscar/{cpf}/{mes}/{ano}", ([FromRoute] string cpf, int me
 
     Folha? folhaEncontrada = context.Folhas.Where(f => f.Mes == mes).Where(f => f.Ano == ano).FirstOrDefault(x => x.FuncionarioId == funcionarioBuscado.Id);
 
-    if (folhaEncontrada is null) Results.NotFound("Não foi encontrado nenhuma folha com o CPF deste funcionário com esta data, favor validar!");
+    if (folhaEncontrada != null) Results.NotFound("Não foi encontrado nenhuma folha com o CPF deste funcionário com esta data, favor validar!");
     else
     {
         Results.Ok(folhaEncontrada);

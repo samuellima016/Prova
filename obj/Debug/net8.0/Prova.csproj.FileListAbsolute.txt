@@ -120,3 +120,4 @@ C:\Users\autologon\Desktop\ProvaSegunda\Prova\obj\Debug\net8.0\refint\Prova.dll
 C:\Users\autologon\Desktop\ProvaSegunda\Prova\obj\Debug\net8.0\Prova.pdb
 C:\Users\autologon\Desktop\ProvaSegunda\Prova\obj\Debug\net8.0\Prova.genruntimeconfig.cache
 C:\Users\autologon\Desktop\ProvaSegunda\Prova\obj\Debug\net8.0\ref\Prova.dll
+C:\Users\autologon\Desktop\ProvaSegunda\Prova\obj\Debug\net8.0\Prova.sourcelink.json
